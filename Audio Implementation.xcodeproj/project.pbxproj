@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EF3E57123975B06007F50D0 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3E57023975B06007F50D0 /* NextViewController.swift */; };
 		1EFE80A72396109A00CAA71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFE80A62396109A00CAA71B /* AppDelegate.swift */; };
 		1EFE80A92396109A00CAA71B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFE80A82396109A00CAA71B /* SceneDelegate.swift */; };
 		1EFE80AB2396109A00CAA71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFE80AA2396109A00CAA71B /* ViewController.swift */; };
 		1EFE80AE2396109A00CAA71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFE80AC2396109A00CAA71B /* Main.storyboard */; };
 		1EFE80B02396109C00CAA71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFE80AF2396109C00CAA71B /* Assets.xcassets */; };
 		1EFE80B32396109C00CAA71B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFE80B12396109C00CAA71B /* LaunchScreen.storyboard */; };
+		1EFE80BB23963AED00CAA71B /* complete.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1EFE80BA23963AED00CAA71B /* complete.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EF3E57023975B06007F50D0 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		1EFE80A32396109A00CAA71B /* Audio Implementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Implementation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFE80A62396109A00CAA71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EFE80A82396109A00CAA71B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		1EFE80AF2396109C00CAA71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EFE80B22396109C00CAA71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EFE80B42396109C00CAA71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFE80BA23963AED00CAA71B /* complete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = complete.wav; path = ../../../../complete.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		1EFE80A52396109A00CAA71B /* Audio Implementation */ = {
 			isa = PBXGroup;
 			children = (
+				1EFE80BA23963AED00CAA71B /* complete.wav */,
 				1EFE80A62396109A00CAA71B /* AppDelegate.swift */,
 				1EFE80A82396109A00CAA71B /* SceneDelegate.swift */,
+				1EF3E57023975B06007F50D0 /* NextViewController.swift */,
 				1EFE80AA2396109A00CAA71B /* ViewController.swift */,
 				1EFE80AC2396109A00CAA71B /* Main.storyboard */,
 				1EFE80AF2396109C00CAA71B /* Assets.xcassets */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EFE80B32396109C00CAA71B /* LaunchScreen.storyboard in Resources */,
+				1EFE80BB23963AED00CAA71B /* complete.wav in Resources */,
 				1EFE80B02396109C00CAA71B /* Assets.xcassets in Resources */,
 				1EFE80AE2396109A00CAA71B /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EFE80AB2396109A00CAA71B /* ViewController.swift in Sources */,
+				1EF3E57123975B06007F50D0 /* NextViewController.swift in Sources */,
 				1EFE80A72396109A00CAA71B /* AppDelegate.swift in Sources */,
 				1EFE80A92396109A00CAA71B /* SceneDelegate.swift in Sources */,
 			);
