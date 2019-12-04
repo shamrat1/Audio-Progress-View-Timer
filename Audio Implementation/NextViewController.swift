@@ -9,14 +9,18 @@
 import UIKit
 
 class NextViewController: UIViewController {
-
+    var seconds: Int?
+    @IBOutlet weak var labelOutlet: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        labelOutlet.text = String(seconds!)
     }
     
 
+        
     /*
     // MARK: - Navigation
 

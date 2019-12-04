@@ -35,7 +35,11 @@ class ViewController: UIViewController {
         progrssBar.progress = 0.0
         
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? NextViewController {
+            vc.seconds = seconds
+        }
+    }
     @IBAction func startBtn(_ sender: Any) {
         
         
